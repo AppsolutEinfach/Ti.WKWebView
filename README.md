@@ -55,8 +55,8 @@ Features
 | userAgent | String|
 | url | String |
 | data | Ti.Blob, Ti.File |
-| html | Boolean |
-| title | Boolean |
+| html | String |
+| title | String |
 | progress | Double |
 | backForwardList | Object |
 | ignoreSslError | Boolean |
@@ -65,7 +65,7 @@ Features
 | basicAuhentication | Object<br/>- username (String)<br/>- password (String)<br/>- persistence (CREDENTIAL_PERSISTENCE_*) |
 | cachePolicy | CACHE_POLICY_* |
 | timeout | Double |
-| SelectionGranularity | SELECTION_GRANULARITY_* |
+| selectionGranularity | SELECTION_GRANULARITY_* |
 | processPool | ProcessPool |
 
 #### Methods
